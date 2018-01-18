@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@drawable/wheatbackground2"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.grocerypricewholesale.LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/mylogo"
+        android:id="@+id/ivlogo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivlogo"
+        android:text="Grocery Price (Wholesale)"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:textColor="#000000"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:id="@+id/tvname"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/google"
+        android:layout_below="@+id/tvname"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="#e8e8e8"
+        android:padding="10dp"
+        android:elevation="5dp">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/googlelogo1x"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Login via Google"/>
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/email"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:background="#e8e8e8"-->
+        <!--android:layout_below="@+id/google"-->
+        <!--android:padding="10dp"-->
+        <!--android:elevation="5dp">-->
+        <!--<ImageView-->
+            <!--android:layout_width="25dp"-->
+            <!--android:layout_height="25dp"-->
+            <!--android:src="@drawable/facebookicon"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:text="Login via Facebook"/>-->
+    <!--</LinearLayout>-->
+</RelativeLayout>

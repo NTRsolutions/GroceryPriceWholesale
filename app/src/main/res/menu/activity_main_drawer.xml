@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dryfruits"
+            android:icon="@drawable/ic_content_paste_black_24dp"
+            android:title="Dry Fruits" />
+        <item
+            android:id="@+id/nav_pulses"
+            android:icon="@drawable/ic_content_paste_black_24dp"
+            android:title="Pulses" />
+        <item
+            android:id="@+id/nav_spices"
+            android:icon="@drawable/ic_content_paste_black_24dp"
+            android:title="Spices" />
+        <item
+            android:id="@+id/nav_extras"
+            android:icon="@drawable/ic_content_paste_black_24dp"
+            android:title="Extras" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/ic_call_black_24dp"
+                android:title="Contact us" />
+            <item
+                android:id="@+id/signout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Signout" />
+        </menu>
+    </item>
+
+</menu>

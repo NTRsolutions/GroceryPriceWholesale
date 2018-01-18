@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.grocerypricewholesale.Main2Activity">
+
+    <TextView
+        android:id="@+id/tvempty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dry Fruits"
+        android:id="@+id/tvtitle"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"
+        android:textColor="#000000" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/view1"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tvtitle"
+        android:background="#d3d3d3"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view1"
+        android:id="@+id/lv"
+        android:layout_above="@+id/lladd"
+        android:dividerHeight="2dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lladd"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_toLeftOf="@+id/btnsubmit"
+        android:elevation="5dp"
+        android:padding="12dp"
+        android:background="#F7A51D"
+        android:layout_margin="5dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_library_add_black_24dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add new Item"
+            android:layout_marginLeft="20dp"
+            android:textSize="16dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsubmit"
+        android:text="Submit"
+        android:elevation="5dp"
+        android:background="#F7A51D"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

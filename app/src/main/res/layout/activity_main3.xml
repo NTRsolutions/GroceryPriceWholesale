@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.example.admin.csledlightings.Main3Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/line"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/contact"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Contact Details"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e3e3e3"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/line"
+        android:layout_above="@+id/ivnav"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/ivnav"
+        android:src="@mipmap/ic_launcher_foreground"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/address"
+        android:layout_centerHorizontal="true"
+        android:text="GrocMartIndia Pvt. Ltd."
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:id="@+id/title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/address"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:layout_centerVertical="true"
+        android:text="Lalit Kumar\nE-13, Kondli,\nDelhi, India\n Pin Code : 110096"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone"
+        android:layout_marginTop="20dp"
+        android:textColor="#2874f0"
+        android:layout_below="@+id/address"
+        android:text="+91-9717052978"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="20dp"
+        android:id="@+id/butcall"
+        android:text="Contact Dealer" />
+
+</RelativeLayout>

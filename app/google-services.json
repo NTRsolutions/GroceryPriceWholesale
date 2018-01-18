@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "286107428561",
+    "firebase_url": "https://groceryprice-417f9.firebaseio.com",
+    "project_id": "groceryprice-417f9",
+    "storage_bucket": "groceryprice-417f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286107428561:android:5158210c9a9e6a01",
+        "android_client_info": {
+          "package_name": "com.example.admin.grocerypricewholesale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286107428561-0bf2qsr6dkquhj6iv04ucmdr7kb6kgv3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.grocerypricewholesale",
+            "certificate_hash": "a7cb53ad427d185110b0e50273a326580982b039"
+          }
+        },
+        {
+          "client_id": "286107428561-janpa8phngoi03na4up39j47fjdab5c2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKXjVQbLDoHFm-E0tPMNAuHcVv9QbO51w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286107428561-janpa8phngoi03na4up39j47fjdab5c2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
